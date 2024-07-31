@@ -2,7 +2,7 @@ import numpy as np
 import rowEchelon as re
 
 def myLU3(A):
-    """ Takes a 3x3 numpy array and computes its
+    """ Takes a nxn numpy array and computes its
     LU decomposition without partial pivoting
     and assuming that no row swaps are required. """
     U = np.copy(A)
